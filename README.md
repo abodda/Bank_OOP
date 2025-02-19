@@ -1,4 +1,4 @@
-# Smart Console Bank System 🏦
+# Smart Console Bank System Using object oriented programming OOP 🏦
 
 Welcome to the Smart Console Bank System! This project is designed to simulate a banking system using C++.
 
