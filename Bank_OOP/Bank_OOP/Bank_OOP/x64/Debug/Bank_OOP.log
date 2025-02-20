@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Bank System With OOP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.cpp
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\string.h(30,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\Read.h(6,14): warning C4091: 'static ': ignored on left of 'clsRead::_enMainChoice' when no variable is declared
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\client.h(204,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\client.h(233,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\User.h(52,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\TransActions.h(32,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\Bank_OOP\TransActions.h(35,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+  Bank_OOP.vcxproj -> E:\programming\projects\Bank System With OOP\Bank_OOP\Bank_OOP\x64\Debug\Bank_OOP.exe
