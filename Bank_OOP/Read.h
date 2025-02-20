@@ -1,4 +1,6 @@
 #pragma once
+#include "clsMainMenu.h"
+#include "TransActions.h"
 
 using namespace std;
 
@@ -76,5 +78,6 @@ public:
 		return _enTrans(choice);
 	}
 	friend class clsMainMenu;
+	friend class clsTTrans;
 
 };

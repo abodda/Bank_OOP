@@ -209,19 +209,10 @@ public:
 			cout << "\nAll clients data has been deleted :')\n";
 		}
 	}
-	static void ShowMoneyList() {
-		vector <string> clients = _SaveFileContentToVector("clients.txt");
-		int clientsize = clients.size();
-		printf("\n\nClient List (%d) Client (s).\n", clientsize);
-		cout << "----------------------------------------------------------------\n";
-		cout << "| " << left << setw(20) << "Account Number" << "| " << setw(25) << "client Name" << "| " << "Balance" << "\n";
-		cout << "----------------------------------------------------------------\n\n";
-		for (int i = 0; i < clients.size(); i++) {
-			clsClient client = _ConvertLineToClientObject(clients[i]);
-			cout << "| " << left << setw(20) << client.AccountNumber() << "| " << setw(25) << client.Name() << "| " << client.Balance() << " $ \n";
-		}
-	}
-	friend class clsTrans;
+
+	friend class clsTTrans;
 	friend class clsUser;
 	friend class clsClientList;
+	friend class clsMoneyList;
+
 };

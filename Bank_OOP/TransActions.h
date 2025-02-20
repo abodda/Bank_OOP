@@ -9,14 +9,21 @@
 #include "string.h"
 #include "Read.h"
 #include "client.h"
-class clsTrans {
+#include "clsScreen.h"
+#include "clsMainMenu.h"
+class clsTTrans : protected clsScreen {
 private:
 	long long _Added = 0;
 	long long _Withdrawen = 0;
 	int _pos = 0;
 	clsClient _client{0, "", "", "", "", "", ""};
+	static void _GoBackToTrans() {
+		cout << "\n\npress any key to go to Trans menu...";
+		system("pause>0");
+		Screen();
+	}
 public:
-	clsTrans(clsClient client) {
+	clsTTrans(clsClient client) {
 		_client = client;
 	}
 	clsClient client() {
@@ -59,6 +66,35 @@ public:
 		clients = _client._SaveFileContentToVector("clients.txt");
 		clients[_pos] = clsClient::_ConvertClientObjectToLine(_client);
 		clsClient::_SaveVecToFile(clients, "clients.txt");
+	}
+	static void Screen() {
+		system("cls");
+		HeaderName("");
+		cout << "\n ******************************************************************************* \n";
+		cout << "			   Transactions Menue Screen		\n";
+		cout << " ******************************************************************************* \n";
+
+		cout << "\n			   (1) ==> Deposit.\n";
+		cout << "			   (2) ==> WithDrow.\n";
+		cout << "			   (3) ==> Show Money Lists.\n";
+		cout << "			   (4) ==> Main Menue.\n";
+		switch (clsRead::ReadTransChoice()) {
+		case clsRead::_enTrans::Deposit:
+			//DepositScreen();
+			_GoBackToTrans();
+			break;
+		case clsRead::_enTrans::WithDrow:
+			//WithDrowScreen();
+			_GoBackToTrans();
+			break;
+		case clsRead::_enTrans::MainMenu:
+			clsMainMenu::MainProgram();
+			break;
+		case clsRead::_enTrans::ShowMoneyList:
+			//clsMoneyList::Screen();
+			_GoBackToTrans();
+			break;
+		}
 	}
 
 };

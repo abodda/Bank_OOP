@@ -5,12 +5,14 @@
 #include "User.h"
 #include "client.h"
 #include "Read.h"
-#include "TransActions.h"
 #include "clsFindClient.h"
 #include "DeleteClient.h"
 #include "clsUpdateClient.h"
 #include "clsAddClient.h"
 #include "clsClientList.h"
+#include "clsResetClass.h"
+#include "clsMoneyList.h"
+#include "TransActions.h"
 using namespace std;
 clsUser NowUser("", "", "", "", 0);
 class clsMainMenu : protected clsScreen {
@@ -36,45 +38,9 @@ public:
 		cout << "			   (9)  ==> Log out .\n";
 		cout << "			   (10) ==> Quit .\n";
 	}
-	static void ResetClientsScreen() {
-		system("cls");
-		HeaderName("Reset Client Screen");
-		clsClient::Reset();
-	}
-	static void ShowMoneyListScreen() {
-		system("cls");
-		clsClient::ShowMoneyList();
-	}
-	static void TransScreen() {
-		system("cls");
-		cout << "\n ******************************************************************************* \n";
-		cout << "			   Transactions Menue Screen		\n";
-		cout << " ******************************************************************************* \n";
 
-		cout << "\n			   (1) ==> Deposit.\n";
-		cout << "			   (2) ==> WithDrow.\n";
-		cout << "			   (3) ==> Show Money Lists.\n";
-		cout << "			   (4) ==> Main Menue.\n";
-		switch (clsRead::ReadTransChoice()) {
-		case clsRead::_enTrans::Deposit:
-			DepositScreen();
-			GoBackToTrans();
-			break;
-		case clsRead::_enTrans::WithDrow:
-			WithDrowScreen();
 
-			GoBackToTrans();
-			break;
-		case clsRead::_enTrans::MainMenu:
-			MainProgram();
-			GoBackToTrans();
-			break;
-		case clsRead::_enTrans::ShowMoneyList:
-			ShowMoneyListScreen();
-			GoBackToTrans();
-			break;
-		}
-	}
+
 	static void MainProgram() {
 		DisplayMain();
 		switch (clsRead::ReadMainChoiceFromUser()) {
@@ -89,7 +55,7 @@ public:
 			GoBackToMainMenue();
 			break;
 		case clsRead::_enMainChoice::resetClients:
-			if (NowUser.IsAllowed(clsUser::enPermesion::resetClients)) ResetClientsScreen();
+			if (NowUser.IsAllowed(clsUser::enPermesion::resetClients)) clsResetClass::Screen();
 			else NotAvailible();
 			GoBackToMainMenue();
 			break;
@@ -112,7 +78,7 @@ public:
 			Process();
 			break;
 		case clsRead::_enMainChoice::TransActions:
-			if (NowUser.IsAllowed(clsUser::enPermesion::TransActions)) TransScreen();
+			if (NowUser.IsAllowed(clsUser::enPermesion::TransActions)) clsTTrans::Screen();
 			else
 			{
 				NotAvailible();
@@ -225,23 +191,7 @@ public:
 			MainProgram();
 		}
 	}
-	static void DepositScreen() {
-		system("cls");
-		cout << "------------------------------\n";
-		cout << "	Deposit Screen \n";
-		cout << "------------------------------\n\n";
-		int Deposit;
-		clsClient client = clsClient::CheckIfItExist();
-		clsTrans trans{ client };
-		cout << "\nhow many you want to deposit : ";
-		cin >> Deposit;
-		trans.SetAdded(Deposit);
-		trans.Deposit();
-		if (Deposit > 0) printf("\n%d has been Added successfully to ", Deposit);
-		else if (Deposit < 0) printf("\n%d has been WithDrown successfully from ", -Deposit);
-		else printf("\nNothing has been Added to ");
-		cout << client.AccountNumber() << " :')\n";
-	}
+
 	static void WithDrowScreen() {
 		system("cls");
 		cout << "------------------------------\n";
@@ -260,7 +210,7 @@ public:
 				return;
 			}
 		}
-		clsTrans trans{ client };
+		clsTTrans trans{ client };
 		trans.SetWithdrawen(withdrow);
 		trans.Withdrow();
 		printf("\n%d has been WithDrowen successfully from ", withdrow);
@@ -272,11 +222,7 @@ public:
 		system("pause>0");
 		MainProgram();
 	}
-	static void GoBackToTrans() {
-		cout << "\n\npress any key to go to Trans menu...";
-		TransScreen();
-		system("pause>0");
-	}
+
 	static void NotAvailible() {
 		system("cls");
 		cout << "|  you can not access this :( |\n";

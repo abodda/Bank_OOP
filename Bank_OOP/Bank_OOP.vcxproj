@@ -127,16 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="clsAddClient.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Client.h" />
     <ClInclude Include="clsAddClient.h" />
     <ClInclude Include="clsClientList.h" />
+    <ClInclude Include="clsDeposit.h" />
     <ClInclude Include="clsFindClient.h" />
     <ClInclude Include="clsMainMenu.h" />
+    <ClInclude Include="clsMoneyList.h" />
     <ClInclude Include="clsPerson.h" />
+    <ClInclude Include="clsResetClass.h" />
     <ClInclude Include="clsScreen.h" />
     <ClInclude Include="clsUpdateClient.h" />
     <ClInclude Include="DeleteClient.h" />

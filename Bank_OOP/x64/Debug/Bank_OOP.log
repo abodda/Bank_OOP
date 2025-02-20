@@ -1,34 +1,418 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Bank System With OOP.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  clsAddClient.cpp
-E:\programming\projects\Bank System With OOP\Bank_OOP\string.h(30,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-  (compiling source file 'clsAddClient.cpp')
-  
-E:\programming\projects\Bank System With OOP\Bank_OOP\Read.h(6,14): warning C4091: 'static ': ignored on left of 'clsRead::_enMainChoice' when no variable is declared
-  (compiling source file 'clsAddClient.cpp')
-  
-E:\programming\projects\Bank System With OOP\Bank_OOP\client.h(214,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  (compiling source file 'clsAddClient.cpp')
-  
   Source.cpp
 E:\programming\projects\Bank System With OOP\Bank_OOP\string.h(30,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank System With OOP\Bank_OOP\Read.h(6,14): warning C4091: 'static ': ignored on left of 'clsRead::_enMainChoice' when no variable is declared
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(51,38): error C2027: use of undefined type 'clsClient'
   (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
   
-E:\programming\projects\Bank System With OOP\Bank_OOP\client.h(214,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(51,38): error C3861: '_SaveFileContentToVector': identifier not found
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(52,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(32,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(97,15): error C2653: 'clsRead': is not a class or namespace name
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(35,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(97,24): error C2064: term does not evaluate to a function taking 0 arguments
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(84,61): error C3861: 'DisplayClientListScreen': identifier not found
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(176,38): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(176,38): error C3861: '_SaveFileContentToVector': identifier not found
   (compiling source file 'Source.cpp')
   
-  Generating Code...
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(178,14): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(178,14): error C3861: '_SaveVecToFile': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(185,15): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(185,24): error C2064: term does not evaluate to a function taking 0 arguments
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(192,14): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(192,14): error C3861: '_SaveStringToFile': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(196,38): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(196,38): error C3861: '_SaveFileContentToVector': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(201,14): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(201,14): error C3861: '_SaveVecToFile': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsFindClient.h(11,13): error C2079: 'FoundClient' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsFindClient.h(11,38): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsFindClient.h(11,38): error C3861: 'CheckIfItExist': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\DeleteClient.h(10,13): error C2079: 'FoundClient' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\DeleteClient.h(10,38): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\DeleteClient.h(10,38): error C3861: 'CheckIfItExist': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsUpdateClient.h(10,13): error C2079: 'client' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsUpdateClient.h(10,33): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsUpdateClient.h(10,33): error C3861: 'CheckIfItExist': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsAddClient.h(9,13): error C2079: 'client' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsAddClient.h(9,33): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsAddClient.h(9,33): error C3861: 'Add': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(10,41): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(10,41): error C3861: '_SaveFileContentToVector': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(11,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(21,14): error C2079: 'client' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(21,34): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsClientList.h(21,34): error C3861: '_ConvertLineToClientObject': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsResetClass.h(10,14): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsResetClass.h(10,14): error C3861: 'Reset': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(10,40): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(10,40): error C3861: '_SaveFileContentToVector': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(11,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(21,14): error C2079: 'client' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(21,34): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMoneyList.h(21,34): error C3861: '_ConvertLineToClientObject': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(19,12): error C2079: 'clsTTrans::_client' uses undefined class 'clsClient'
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(19,19): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(19,19):
+      The initializer contains too many elements
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(19,19): error C2439: 'clsTTrans::_client': member could not be initialized
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(19,12):
+      see declaration of 'clsTTrans::_client'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(26,2): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(27,13): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(29,12): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(39,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(42,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(67,30): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(67,30): error C3861: '_ConvertClientObjectToLine': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(67,15): error C2593: 'operator =' is ambiguous
+  (compiling source file 'Source.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(1440,32):
+      could be 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem)'
+          with
+          [
+              _Elem=char
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(1432,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const _Elem *const )'
+          with
+          [
+              _Elem=char
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(1381,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)'
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(1332,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::initializer_list<_Elem>)'
+          with
+          [
+              _Elem=char
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(1211,32):
+      or       'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::basic_string<char,std::char_traits<char>,std::allocator<char>>::operator =(std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&) noexcept'
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(67,15):
+      while trying to match the argument list '(_Ty, unknown-type)'
+          with
+          [
+              _Ty=std::string
+          ]
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(68,14): error C2027: use of undefined type 'clsClient'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsPerson.h(35,15):
+      see declaration of 'clsClient'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(68,14): error C3861: '_SaveVecToFile': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(81,11): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(81,20): error C3861: 'ReadTransChoice': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(81,35): error C2050: switch expression not integral
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(82,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(82,27): error C2440: 'type cast': cannot convert from 'void (__cdecl clsTTrans::* )(void)' to 'int'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(82,27):
+      There is no context in which this conversion is possible
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(82,3): error C2046: illegal case
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(86,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(86,27): error C2065: 'WithDrow': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(86,27): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(86,27):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(90,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(90,27): error C2065: 'MainMenu': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(90,27): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(90,27):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(91,17): error C2027: use of undefined type 'clsMainMenu'
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\User.h(227,15):
+      see declaration of 'clsMainMenu'
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(91,17): error C3861: 'MainProgram': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(93,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(93,27): error C2065: 'ShowMoneyList': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(93,27): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(93,27):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(86,27): error C2051: case expression not constant
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(90,27): error C2051: case expression not constant
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(93,27): error C2051: case expression not constant
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\TransActions.h(97,3): warning C4060: switch statement contains no 'case' or 'default' labels
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(46,11): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(46,20): error C3861: 'ReadMainChoiceFromUser': identifier not found
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(46,42): error C2050: switch expression not integral
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(47,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(47,32): error C2065: 'ShowClientLIst': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(47,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(47,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(52,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(52,32): error C2065: 'adddNewClient': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(52,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(52,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(57,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(57,32): error C2065: 'resetClients': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(57,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(57,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(62,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(62,32): error C2065: 'deleteClient': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(62,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(62,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(67,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(67,32): error C2065: 'updateClient': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(67,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(67,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(72,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(72,32): error C2065: 'findClient': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(72,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(72,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(77,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(77,32): error C2065: 'LogOut': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(77,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(77,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(80,8): error C2653: 'clsRead': is not a class or namespace name
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(80,32): error C2065: 'TransActions': undeclared identifier
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(80,32): error C2131: expression did not evaluate to a constant
+  (compiling source file 'Source.cpp')
+      E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(80,32):
+      a non-constant (sub-)expression was encountered
+  
+E:\programming\projects\Bank System With OOP\Bank_OOP\clsMainMenu.h(80,32): error C1003: error count exceeds 100; stopping compilation
+  (compiling source file 'Source.cpp')
+  

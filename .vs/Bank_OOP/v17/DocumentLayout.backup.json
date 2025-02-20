@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "E:\\programming\\projects\\Bank System With OOP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsClientList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsClientList.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Read.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\Read.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\TransActions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\TransActions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsDeposit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsDeposit.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsResetClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsResetClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsAddClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsAddClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6ED198BF-79CF-47D8-8848-262FB28D59E9}|Bank_OOP\\Bank_OOP.vcxproj|solutionrelative:Bank_OOP\\Client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsClientList.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsClientList.h",
-              "RelativeDocumentMoniker": "Bank_OOP\\clsClientList.h",
-              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsClientList.h",
-              "RelativeToolTip": "Bank_OOP\\clsClientList.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Read.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Read.h",
+              "RelativeDocumentMoniker": "Bank_OOP\\Read.h",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Read.h",
+              "RelativeToolTip": "Bank_OOP\\Read.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAIA2wBMAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-20T12:08:10.325Z",
+              "WhenOpened": "2025-02-20T13:04:07.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "TransActions.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\TransActions.h",
+              "RelativeDocumentMoniker": "Bank_OOP\\TransActions.h",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\TransActions.h",
+              "RelativeToolTip": "Bank_OOP\\TransActions.h",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-20T13:02:41.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsMainMenu.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h",
+              "RelativeDocumentMoniker": "Bank_OOP\\clsMainMenu.h",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h",
+              "RelativeToolTip": "Bank_OOP\\clsMainMenu.h",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-20T12:00:59.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsDeposit.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsDeposit.h",
+              "RelativeDocumentMoniker": "Bank_OOP\\clsDeposit.h",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsDeposit.h",
+              "RelativeToolTip": "Bank_OOP\\clsDeposit.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-20T13:01:43.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Client.h",
               "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Client.h",
               "RelativeDocumentMoniker": "Bank_OOP\\Client.h",
-              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Client.h*",
-              "RelativeToolTip": "Bank_OOP\\Client.h*",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABcAAAACAAAAAAAAAA==",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\Client.h",
+              "RelativeToolTip": "Bank_OOP\\Client.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-20T12:06:19.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "User.h",
               "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\User.h",
               "RelativeDocumentMoniker": "Bank_OOP\\User.h",
               "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\User.h",
               "RelativeToolTip": "Bank_OOP\\User.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAG8AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAlwDIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-20T12:06:22.887Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsAddClient.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsAddClient.h",
-              "RelativeDocumentMoniker": "Bank_OOP\\clsAddClient.h",
-              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsAddClient.h",
-              "RelativeToolTip": "Bank_OOP\\clsAddClient.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-20T12:05:42.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "clsMainMenu.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h",
-              "RelativeDocumentMoniker": "Bank_OOP\\clsMainMenu.h",
-              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsMainMenu.h*",
-              "RelativeToolTip": "Bank_OOP\\clsMainMenu.h*",
-              "ViewState": "AgIAABAAAAAAAAAAAAAowCcAAAAAAAAAAAAAAA==",
+              "Title": "clsResetClass.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsResetClass.h",
+              "RelativeDocumentMoniker": "Bank_OOP\\clsResetClass.h",
+              "ToolTip": "E:\\programming\\projects\\Bank System With OOP\\Bank_OOP\\clsResetClass.h",
+              "RelativeToolTip": "Bank_OOP\\clsResetClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-20T12:00:59.227Z",
+              "WhenOpened": "2025-02-20T12:43:39.38Z",
               "EditorCaption": ""
             }
           ]
