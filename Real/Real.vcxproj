@@ -132,6 +132,7 @@
   <ItemGroup>
     <ClInclude Include="clsAddClientScreen.h" />
     <ClInclude Include="clsAddUserScreen.h" />
+    <ClInclude Include="clsClient.h" />
     <ClInclude Include="clsClientListScreen.h" />
     <ClInclude Include="clsDeleteClientScreen.h" />
     <ClInclude Include="clsDeleteUserScreen.h" />
@@ -140,12 +141,14 @@
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsMainMenu.h" />
     <ClInclude Include="clsMoneyListScreen.h" />
+    <ClInclude Include="clsPerson.h" />
     <ClInclude Include="clsResetClientScreen.h" />
     <ClInclude Include="clsScreen.h" />
     <ClInclude Include="clsUpdateClientScreen.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
     <ClInclude Include="clsUserListScreen.h" />
     <ClInclude Include="clsWithDrowScreen.h" />
+    <ClInclude Include="Misc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

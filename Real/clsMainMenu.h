@@ -14,45 +14,10 @@
 #include "clsDeleteUserScreen.h"
 #include "clsUpdateUserScreen.h"
 #include "clsUserListScreen.h"
+#include "Misc.h"
 class clsMainMenu : protected clsScreen
 {
 private:
-
-	enum _enReadUserChoice {
-		UserList = 1,
-		Adduser = 2,
-		deleteuser = 3,
-		updateuser = 4,
-		finduser = 5,
-		MainMenue = 6
-	};
-	static _enReadUserChoice ReadChoiceFromManageUserScreen() {
-		_DisplayManageUserScreen();
-		short choice;
-		cout << "\n (1 : 6) : ";
-		cin >> choice;
-
-		while (cin.fail() || choice > 6 || choice < 1) {
-			cin.clear();
-			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-			cout << "\npls enter a valid choice (1 : 6) only \n";
-			cin >> choice;
-		}
-		return _enReadUserChoice(choice);
-	}
-	enum _enTrans { Deposit = 1, WithDrow = 2, ShowMoneyList = 3, MainMenu = 4 };
-	enum _enMainChoice {
-		ShowClientLIst = 1,
-		adddNewClient = 2,
-		deleteClient = 3,
-		updateClient = 4,
-		findClient = 5,
-		resetClients = 6,
-		TransActions = 7,
-		MangeUsers = 8,
-		LogOut = 9,
-		Quit = 10
-	};
 	static void _DisplayMainScreen()
 	{
 		system("cls");
@@ -76,36 +41,9 @@ private:
 		cout << "|   pls Contact your Admin    |\n";
 	}
 	static void _GoBackToMainMenue() {
-		cout << "\n\npress any key to go to main menu...";
+		cout << "\n\n\t\t\t\t\t  press any key to go to main menu...";
 		system("pause>0");
 		MainProgram();
-	}
-	static _enMainChoice _ReadMainChoiceFromUser() {
-		_DisplayMainScreen();
-		short choice;
-		cout << "\n\nWhich of these would you like to start with ? (1 : 10) : ";
-		cin >> choice;
-
-		while (cin.fail() || choice > 10 || choice < 1) {
-			cin.clear();
-			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-			cout << "\npls enter a valid choice (1 : 10) only \n";
-			cin >> choice;
-		}
-		return _enMainChoice(choice);
-	}
-	static _enTrans _ReadTransChoice() {
-		_DisplayTransMenue();
-		short choice;
-		cout << "\n\n(1 : 4) : ";
-		cin >> choice;
-		while (cin.fail() || choice > 4 || choice < 1) {
-			cin.clear();
-			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-			cout << "\npls enter a valid choice (1 : 4) only \n";
-			cin >> choice;
-		}
-		return _enTrans(choice);
 	}
 	static void _DisplayTransMenue() {
 		system("cls");
@@ -140,6 +78,7 @@ private:
 	{
 	public:
 		static void Print() {	
+			_DisplayTransMenue();
 			switch (_ReadTransChoice()) {
 			case Deposit:
 				clsDepositScreen::Print();
@@ -165,6 +104,7 @@ private:
 	{
 	public:
 		static void Print() {
+			_DisplayManageUserScreen();
 			system("cls");
 			Header("       Manage Users Client Screen");
 			switch (ReadChoiceFromManageUserScreen()) {
@@ -195,63 +135,41 @@ private:
 
 		}
 	};
-
-
 public:
 	static void MainProgram() {
-		
+		_DisplayMainScreen();
 		switch (_ReadMainChoiceFromUser()) {
 		case ShowClientLIst:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::ClientList))
 			clsClientListScreen::Print();
 				_GoBackToMainMenue();
 				break;
 		case adddNewClient:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::AddClient)) cout << "Scren";
-			//else _NotAvailible();
 			clsAddClientScreen::Print();
 			_GoBackToMainMenue();
 			break;
 		case resetClients:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::resetClients)) cout << "Scren";
-			//else _NotAvailible();
 			clsResetClientScreen::Print();
 			_GoBackToMainMenue();
 			break;
 		case deleteClient:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::DeleteClient)) 
 			clsDeleteClientScreen::Print();
-			//else _NotAvailible();
 			_GoBackToMainMenue();
 			break;
 		case updateClient:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::UpdateClient)) 
 			clsUpdateClientScreen::Print();
-			//else _NotAvailible();
 			_GoBackToMainMenue();
 			break;
 		case findClient:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::FindClient))
 			clsFindClientScreen::Print();
-			//else _NotAvailible();
 			_GoBackToMainMenue();
 			break;
 		case LogOut:
-			//Process();
 			break;
 		case TransActions:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::TransActions)) 
 			_clsTransScreen::Print();
-			//else
-			//{
-			//	_NotAvailible();
-			//	_GoBackToMainMenue();
-			//}
 			break;
 		case MangeUsers:
-			//if (NowUser.IsAllowed(clsUser::enPermesion::ManageUsers))
 			_clsManageScreen::Print();
-			//else _NotAvailible();
 			_GoBackToMainMenue();
 			break;
 		case Quit:

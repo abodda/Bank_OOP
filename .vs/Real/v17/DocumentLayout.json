@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUserListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsUserListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsDeleteUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUpdateUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsUpdateUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Misc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\Misc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,45 +22,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsUserListScreen.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUserListScreen.h",
-              "RelativeDocumentMoniker": "Real\\clsUserListScreen.h",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUserListScreen.h",
-              "RelativeToolTip": "Real\\clsUserListScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Title": "clsClientListScreen.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h",
+              "RelativeDocumentMoniker": "Real\\clsClientListScreen.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h",
+              "RelativeToolTip": "Real\\clsClientListScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T15:04:36.165Z",
+              "WhenOpened": "2025-02-22T08:00:25.82Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "clsDeleteUserScreen.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsDeleteUserScreen.h",
-              "RelativeDocumentMoniker": "Real\\clsDeleteUserScreen.h",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsDeleteUserScreen.h",
-              "RelativeToolTip": "Real\\clsDeleteUserScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAWAAAAAAAAAA==",
+              "Title": "Misc.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Misc.h",
+              "RelativeDocumentMoniker": "Real\\Misc.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Misc.h",
+              "RelativeToolTip": "Real\\Misc.h",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAawJYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T15:03:42.596Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsUpdateUserScreen.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUpdateUserScreen.h",
-              "RelativeDocumentMoniker": "Real\\clsUpdateUserScreen.h",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsUpdateUserScreen.h",
-              "RelativeToolTip": "Real\\clsUpdateUserScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-21T15:02:22.701Z",
+              "WhenOpened": "2025-02-22T07:57:18.791Z",
               "EditorCaption": ""
             },
             {
@@ -75,7 +58,7 @@
               "RelativeDocumentMoniker": "Real\\clsMainMenu.h",
               "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsMainMenu.h",
               "RelativeToolTip": "Real\\clsMainMenu.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkBAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAawCsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-21T14:00:09.339Z",
               "EditorCaption": ""
