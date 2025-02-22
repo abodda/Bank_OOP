@@ -19,13 +19,13 @@ enum _enMainChoice {
  _enMainChoice _ReadMainChoiceFromUser() {
 
 	short choice;
-	cout << "\n\nWhich of these would you like to start with ? (1 : 10) : ";
+	cout << "\n\n\t\tWhich of these would you like to start with ? (1 : 10) : ";
 	cin >> choice;
 
 	while (cin.fail() || choice > 10 || choice < 1) {
 		cin.clear();
 		cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-		cout << "\npls enter a valid choice (1 : 10) only \n";
+		cout << "\n\n\t\tpls enter a valid choice (1 : 10) only \n";
 		cin >> choice;
 	}
 	return _enMainChoice(choice);
@@ -123,7 +123,7 @@ void SaveStringToFile(string Line, string name) {
 	}
 string ReadAccountNum() {
 	string AccountName;
-	cout << "\nEnter account number you want to : ";
+	cout << "\n\t\t\t Enter account number you want to : ";
 	cin >> AccountName;
 	return AccountName;
 }

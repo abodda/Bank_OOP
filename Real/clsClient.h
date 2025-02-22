@@ -58,15 +58,15 @@ public:
 		string Email;
 		string PinCode;
 		string Balance;
-		cout << "Enter Name : ";
+		cout << "\t\t\t Enter Name : ";
 		getline(cin >> ws, Name);
-		cout << "Enter Phone : ";
+		cout << "\t\t\t Enter Phone : ";
 		getline(cin >> ws, Phone);
-		cout << "Enter Email : ";
+		cout << "\t\t\t Enter Email : ";
 		getline(cin >> ws, Email);
-		cout << "Enter PinCode : ";
+		cout << "\t\t\t Enter PinCode : ";
 		getline(cin >> ws, PinCode);
-		cout << "Enter Balance : ";
+		cout << "\t\t\t Enter Balance : ";
 		getline(cin >> ws, Balance);
 		clsClient client(true, Name, Phone, Email, "", PinCode, Balance);
 		return client;
@@ -152,7 +152,7 @@ public:
 			AccountNumber = ReadAccountNum();
 			clsClient client = clsClient::Find(AccountNumber);
 			if (client.IsEmbty()) break;
-			cout << "\nthe account number exist try again... \n\n";
+			cout << "\n\t\t\t the account number exist try again... \n\n";
 		}
 		clsClient NewClient = clsClient::ReadClient();
 		NewClient.SetAccountNumber(AccountNumber);

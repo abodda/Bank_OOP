@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsClientListScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsAddClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsAddClientScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Misc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\Misc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsClientListScreen.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h",
-              "RelativeDocumentMoniker": "Real\\clsClientListScreen.h",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClientListScreen.h",
-              "RelativeToolTip": "Real\\clsClientListScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "clsClient.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClient.h",
+              "RelativeDocumentMoniker": "Real\\clsClient.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsClient.h",
+              "RelativeToolTip": "Real\\clsClient.h",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAawJcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-22T08:00:25.82Z",
+              "WhenOpened": "2025-02-22T08:21:45.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "clsAddClientScreen.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsAddClientScreen.h",
+              "RelativeDocumentMoniker": "Real\\clsAddClientScreen.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsAddClientScreen.h",
+              "RelativeToolTip": "Real\\clsAddClientScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-22T08:19:13.773Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +62,7 @@
               "RelativeDocumentMoniker": "Real\\Misc.h",
               "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Misc.h",
               "RelativeToolTip": "Real\\Misc.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAawJYAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-22T07:57:18.791Z",
               "EditorCaption": ""
@@ -58,7 +75,7 @@
               "RelativeDocumentMoniker": "Real\\clsMainMenu.h",
               "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsMainMenu.h",
               "RelativeToolTip": "Real\\clsMainMenu.h",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAawCsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAI4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-02-21T14:00:09.339Z",
               "EditorCaption": ""
