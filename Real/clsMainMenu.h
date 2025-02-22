@@ -139,47 +139,43 @@ public:
 	static void MainProgram() {
 		_DisplayMainScreen();
 		switch (_ReadMainChoiceFromUser()) {
-		case ShowClientLIst:
-			clsClientListScreen::Print();
+			case ShowClientLIst:
+				clsClientListScreen::Print();
+				_GoBackToMainMenue();
+					break;
+			case adddNewClient:
+				clsAddClientScreen::Print();
 				_GoBackToMainMenue();
 				break;
-		case adddNewClient:
-			clsAddClientScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case resetClients:
-			clsResetClientScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case deleteClient:
-			clsDeleteClientScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case updateClient:
-			clsUpdateClientScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case findClient:
-			clsFindClientScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case LogOut:
-			break;
-		case TransActions:
-			_clsTransScreen::Print();
-			break;
-		case MangeUsers:
-			_clsManageScreen::Print();
-			_GoBackToMainMenue();
-			break;
-		case Quit:
-			exit(0);
-		}
-		
-		
-		
-		
-		
+			case resetClients:
+				clsResetClientScreen::Print();
+				_GoBackToMainMenue();
+				break;
+			case deleteClient:
+				clsDeleteClientScreen::Print();
+				_GoBackToMainMenue();
+				break;
+			case updateClient:
+				clsUpdateClientScreen::Print();
+				_GoBackToMainMenue();
+				break;
+			case findClient:
+				clsFindClientScreen::Print();
+				_GoBackToMainMenue();
+				break;
+			case LogOut:
+				break;
+			case TransActions:
+				_clsTransScreen::Print();
+				break;
+			case MangeUsers:
+				_clsManageScreen::Print();
+				_GoBackToMainMenue();
+				break;
+			case Quit:
+				exit(0);
+			}
+
 	}
 	
 	
@@ -187,4 +183,3 @@ public:
 
 
 };
-

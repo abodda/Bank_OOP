@@ -173,13 +173,7 @@ public:
 
 	static void Reset() {
 		fstream file;
-		char ans;
-		cout << "Are you Sure ?? (y,n) ";
-		cin >> ans;
-		if (ans == 'y' || ans == 'Y') {
-			file.open("clients.txt", ios::out);
-			cout << "\nAll clients data has been deleted :')\n";
-		}
+		file.open("clients.txt", ios::out);
 	}
 
 	friend class clsTrans;

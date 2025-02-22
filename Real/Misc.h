@@ -147,7 +147,6 @@ vector <string> _SaveFileContentToVector(string FileName) {
 		}
 		file.close();
 	}
-	else cout << "\t\t\t\t\t   no clients have been added yet! \n";
 	return clients;
 }
 
