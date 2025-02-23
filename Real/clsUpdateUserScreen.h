@@ -6,7 +6,15 @@ public:
 	static void Print() {
 		system("cls");
 		Header("\t  Update User screen");
-		cout << "\nUpdate User screen here \n";
+		clsUser user = clsUser::CheckUser();
+		user.Print();
+		char ans;
+		cout << "\nAre you sure you want to Update ??? (y,n) : ";
+		cin >> ans;
+		if (ans == 'y' || ans == 'Y') {
+			user.Update();
+			cout << "\nUpdated Successfully :') ...";
+		}
 	}
 };
 

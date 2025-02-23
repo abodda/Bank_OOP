@@ -14,6 +14,8 @@
 #include "clsDeleteUserScreen.h"
 #include "clsUpdateUserScreen.h"
 #include "clsUserListScreen.h"
+#include "clsTransScreen.h"
+#include "clsManageUserScreen.h"
 #include "Misc.h"
 class clsMainMenu : protected clsScreen
 {
@@ -45,96 +47,7 @@ private:
 		system("pause>0");
 		MainProgram();
 	}
-	static void _DisplayTransMenue() {
-		system("cls");
-		Header("\t TransActions Screen");
-		cout << "\n			   (1) ==> Deposit.\n";
-		cout << "			   (2) ==> WithDrow.\n";
-		cout << "			   (3) ==> Show Money Lists.\n";
-		cout << "			   (4) ==> Main Menue.\n";
-	}
-	static void _GoBackToTrans() {
-		cout << "\n\npress any key to go to Trans menu...";
-		system("pause>0");
-		_clsTransScreen::Print();
-	}
-	static void _DisplayManageUserScreen() {
-		system("cls");
-		Header("\t Manage Users Screen");
-		cout << "\n\t\t\t\t\t(1) ==> Users List\n";
-		cout << "\t\t\t\t\t(2) ==> Add new User\n";
-		cout << "\t\t\t\t\t(3) ==> delete User\n";
-		cout << "\t\t\t\t\t(4) ==> update User\n";
-		cout << "\t\t\t\t\t(5) ==> find User\n";
-		cout << "\t\t\t\t\t(6) ==> Main Menue\n";
-		cout << "\t\t\t\t\t---------------------------------------\n";
-	}
-	static void _BackToManageScreen() {
-		cout << "\n\npress any key to go to Manage User menu...";
-		system("pause>0");
-		_clsManageScreen::Print();
-	}
-	class _clsTransScreen
-	{
-	public:
-		static void Print() {	
-			_DisplayTransMenue();
-			switch (_ReadTransChoice()) {
-			case Deposit:
-				clsDepositScreen::Print();
-				_GoBackToTrans();
-				break;
-			case WithDrow:
-				clsWithDrowScreen::Print();
-				_GoBackToTrans();
-				break;
-			case MainMenu:
-				clsMainMenu::MainProgram();
-				break;
-			case ShowMoneyList:
-				clsMoneyListScreen::Print();
-				_GoBackToTrans();
-				break;
-			}
-		}
-		
 
-	};
-	class _clsManageScreen : protected clsScreen
-	{
-	public:
-		static void Print() {
-			_DisplayManageUserScreen();
-			system("cls");
-			Header("       Manage Users Client Screen");
-			switch (ReadChoiceFromManageUserScreen()) {
-			case Adduser:
-				clsAddUserScreen::Print();
-				_BackToManageScreen();
-				break;
-			case finduser:
-				clsFindUserScreen::Print();
-				_BackToManageScreen();
-				break;
-			case deleteuser:
-				clsDeleteUserScreen::Print();
-				_BackToManageScreen();
-				break;
-			case updateuser:
-				clsUpdateUserScreen::Print();
-				_BackToManageScreen();
-				break;
-			case MainMenue:
-				MainProgram();
-				break;
-			case UserList:
-				clsUserListScreen::Print();
-				_BackToManageScreen();
-				break;
-			}
-
-		}
-	};
 public:
 	static void MainProgram() {
 		_DisplayMainScreen();
@@ -166,11 +79,12 @@ public:
 			case LogOut:
 				break;
 			case TransActions:
-				_clsTransScreen::Print();
+				clsTransScreen::Print();
+				MainProgram();
 				break;
 			case MangeUsers:
-				_clsManageScreen::Print();
-				_GoBackToMainMenue();
+				clsManageScreen::Print();
+				MainProgram();
 				break;
 			case Quit:
 				exit(0);

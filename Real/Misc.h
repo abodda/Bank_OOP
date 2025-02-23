@@ -33,7 +33,7 @@ enum _enMainChoice {
 enum _enTrans { Deposit = 1, WithDrow = 2, ShowMoneyList = 3, MainMenu = 4 };
  _enTrans _ReadTransChoice() {
 	short choice;
-	cout << "\n\n(1 : 4) : ";
+	cout << "\n\n\t\t\t\t\t(1 : 4) : ";
 	cin >> choice;
 	while (cin.fail() || choice > 4 || choice < 1) {
 		cin.clear();
@@ -53,7 +53,7 @@ enum _enReadUserChoice {
 };
 _enReadUserChoice ReadChoiceFromManageUserScreen() {
 	short choice;
-	cout << "\n (1 : 6) : ";
+	cout << "\n\t\t\t\t\t(1 : 6) : ";
 	cin >> choice;
 
 	while (cin.fail() || choice > 6 || choice < 1) {
@@ -123,13 +123,13 @@ void SaveStringToFile(string Line, string name) {
 	}
 string ReadAccountNum() {
 	string AccountName;
-	cout << "\n\t\t\t Enter account number you want to : ";
+	cout << "\n\t\t\t\t      Enter account number you want to : ";
 	cin >> AccountName;
 	return AccountName;
 }
 string ReadUserName() {
 	string UserName;
-	cout << "\nEnter User Name you want to : ";
+	cout << "\n\t\t\tEnter User Name you want to : ";
 	cin >> UserName;
 	return UserName;
 }

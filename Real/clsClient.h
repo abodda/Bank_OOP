@@ -3,6 +3,8 @@
 #include "String.h"
 #include <vector>
 #include <fstream>
+#include <iostream>
+#include <iomanip>
 #include "Misc.h"
 using namespace std;
 class clsClient : public clsPerson {
@@ -58,15 +60,15 @@ public:
 		string Email;
 		string PinCode;
 		string Balance;
-		cout << "\t\t\t Enter Name : ";
+		cout << "\n\t\t\t\t\t      Enter Name : ";
 		getline(cin >> ws, Name);
-		cout << "\t\t\t Enter Phone : ";
+		cout << "\t\t\t\t\t      Enter Phone : ";
 		getline(cin >> ws, Phone);
-		cout << "\t\t\t Enter Email : ";
+		cout << "\t\t\t\t\t      Enter Email : ";
 		getline(cin >> ws, Email);
-		cout << "\t\t\t Enter PinCode : ";
+		cout << "\t\t\t\t\t      Enter PinCode : ";
 		getline(cin >> ws, PinCode);
-		cout << "\t\t\t Enter Balance : ";
+		cout << "\t\t\t\t\t      Enter Balance : ";
 		getline(cin >> ws, Balance);
 		clsClient client(true, Name, Phone, Email, "", PinCode, Balance);
 		return client;
@@ -175,8 +177,18 @@ public:
 		fstream file;
 		file.open("clients.txt", ios::out);
 	}
-
+	void Print() {
+		cout << "\n\t\t\t\t\t      ---------------------------\n";
+		cout << "\t\t\t\t\t\t" << left << setw(15) << "Account Number" << ": " << _AccountNumber << "\n";
+		cout << "\t\t\t\t\t\t" << left << setw(15) << "Name" << ": " << Name() << "\n";
+		cout << "\t\t\t\t\t\t" << left << setw(15) << "PinCoide" << ": " << _PinCode << "\n";
+		cout << "\t\t\t\t\t\t" << left << setw(15) << "Email" << ": " << Email() << '\n';
+		cout << "\t\t\t\t\t\t" << left << setw(15) << "phone number" << ": " << Phone();
+		cout << "\n\t\t\t\t\t\t" << left << setw(15) << "Balance" << ": " << _Balance;
+		cout << "\n\t\t\t\t\t      ---------------------------\n";
+	}
 	friend class clsTrans;
 	friend class clsUser;
 	friend class clsClientListScreen;
+	friend class clsMoneyListScreen;
 };

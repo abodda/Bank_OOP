@@ -1,12 +1,14 @@
 #pragma once
 #include "clsScreen.h"
+#include "clsUser.h"
 class clsAddUserScreen : protected clsScreen
 {
 public:
 	static void Print() {
 		system("cls");
 		Header("\t  Add User screen");
-		cout << "\nAdd User screen here \n";
+		clsUser::Add();
+		cout << "\nAdded Successfully :') ...";
 	}
 };
 

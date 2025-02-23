@@ -6,7 +6,8 @@ public:
 	static void Print() {
 		system("cls");
 		Header("\t  Find User screen");
-		cout << "\nFind User screen here \n";
+		clsUser user = clsUser::CheckUser();
+		user.Print();
 	}
 };
 

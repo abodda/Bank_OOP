@@ -6,7 +6,13 @@ public:
 	static void Print() {
 		system("cls");
 		Header("\t  Update Client Screen");
-		cout << "\nUpdate Client here\n";
+		clsClient client = clsClient::CheckIfItExist();
+		client.Print();
+		cout << "\n\t\t\t\t\t      --------- Update ---------\n";
+		client.Update();
+		cout << "\n\t\t\t\t\t      Client Updated successfully :')\n";
+		cout << "\t\t\t\t\t      the new client Data is : \n\n";
+		client.Print();
 	}
 };
 

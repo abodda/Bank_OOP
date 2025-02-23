@@ -140,12 +140,16 @@
     <ClInclude Include="clsFindClientScreen.h" />
     <ClInclude Include="clsFindUserScreen.h" />
     <ClInclude Include="clsMainMenu.h" />
+    <ClInclude Include="clsManageUserScreen.h" />
     <ClInclude Include="clsMoneyListScreen.h" />
     <ClInclude Include="clsPerson.h" />
     <ClInclude Include="clsResetClientScreen.h" />
     <ClInclude Include="clsScreen.h" />
+    <ClInclude Include="clsTrans.h" />
+    <ClInclude Include="clsTransScreen.h" />
     <ClInclude Include="clsUpdateClientScreen.h" />
     <ClInclude Include="clsUpdateUserScreen.h" />
+    <ClInclude Include="clsUser.h" />
     <ClInclude Include="clsUserListScreen.h" />
     <ClInclude Include="clsWithDrowScreen.h" />
     <ClInclude Include="Misc.h" />
