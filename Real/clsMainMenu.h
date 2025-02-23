@@ -118,14 +118,15 @@ public:
 		Header("\t Log in screen");
 		string username;
 		string password;
-		while (1) {
+		for (int i = 1; i <= 3; i++) {
 			cout << "\n\t\t\t enter username : ";
 			getline(cin >> ws, username);
 			cout << "\t\t\t enter Password : ";
 			cin >> password;
 			CurrentUser = clsUser::Find(username);
 			if (!CurrentUser.IsEmbty() && CurrentUser.password() == password) break;
-			cout << "\t\t\t Invalid User Name / Password\n";
+			cout << "\t\t\t Invalid User Name / Password remaining " << 3 - i << " time(s) to log in \n";
+			if (i == 3) exit(0);
 		}
 		_MainProgram();
 	}
