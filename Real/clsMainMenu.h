@@ -16,11 +16,39 @@
 #include "clsUserListScreen.h"
 #include "clsTransScreen.h"
 #include "clsManageUserScreen.h"
+#include "clsCurrencyExchangeScreen.h"
 #include "Misc.h"
 clsUser CurrentUser = clsUser::_EmptyObject();
 class clsMainMenu : protected clsScreen
 {
 private:
+	enum _enMainChoice {
+		ShowClientLIst = 1,
+		adddNewClient = 2,
+		deleteClient = 3,
+		updateClient = 4,
+		findClient = 5,
+		resetClients = 6,
+		TransActions = 7,
+		MangeUsers = 8,
+		Currency = 9,
+		LogOut = 10,
+		Quit = 11
+	};
+	static _enMainChoice _ReadMainChoiceFromUser() {
+
+		short choice;
+		cout << "\n\n\t\tWhich of these would you like to start with ? (1 : 10) : ";
+		cin >> choice;
+
+		while (cin.fail() || choice > 11 || choice < 1) {
+			cin.clear();
+			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
+			cout << "\n\n\t\tpls enter a valid choice (1 : 11) only \n";
+			cin >> choice;
+		}
+		return _enMainChoice(choice);
+	}
 	static void _DisplayMainScreen()
 	{
 		system("cls");
@@ -34,8 +62,9 @@ private:
 		cout << "\t     			        (6)  ==> reset Clients.\n";
 		cout << "\t     			        (7)  ==> TransActions.\n";
 		cout << "\t     			        (8)  ==> Manage Users.\n";
-		cout << "\t     			        (9)  ==> Log out .\n";
-		cout << "\t     			        (10) ==> Quit .\n";
+		cout << "\t     			        (9)  ==> Currency Exchange.\n";
+		cout << "\t     			        (10) ==> Log out .\n";
+		cout << "\t     			        (11) ==> Quit .\n";
 		cout << "\t\t\t\t\t---------------------------------------\n";
 	}
 	static void _NotAvailible() {
@@ -107,6 +136,17 @@ private:
 					_GoBackToMainMenue();
 				}
 				break;
+			case Currency:
+				if (CurrentUser.IsAllowed(enPermesion::eCurrency))
+				{
+					clsCurrencyExchangeScreen::Print();
+					_MainProgram();
+				}
+				else
+				{
+					_NotAvailible();
+					_GoBackToMainMenue();
+				}
 			case Quit:
 				exit(0);
 			}
@@ -115,7 +155,7 @@ private:
 public:
 	static void LogIN() {
 		system("cls");
-		Header("\t Log in screen");
+		Header("\t     Log in screen");
 		string username;
 		string password;
 		for (int i = 1; i <= 3; i++) {
@@ -125,8 +165,8 @@ public:
 			cin >> password;
 			CurrentUser = clsUser::Find(username);
 			if (!CurrentUser.IsEmbty() && CurrentUser.password() == password) break;
-			cout << "\t\t\t Invalid User Name / Password remaining " << 3 - i << " time(s) to log in \n";
 			if (i == 3) exit(0);
+			cout << "\t\t\t Invalid User Name / Password remaining " << 3 - i << " time(s) to log in \n";
 		}
 		_MainProgram();
 	}

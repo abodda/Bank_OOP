@@ -1,5 +1,5 @@
 ﻿  Source.cpp
-E:\programming\projects\Bank_With_OOP\Real\Real\Misc.h(89,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\projects\Bank_With_OOP\Real\Real\Misc.h(32,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank_With_OOP\Real\Real\clsClientListScreen.h(13,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data

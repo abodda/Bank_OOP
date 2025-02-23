@@ -4,66 +4,9 @@
 #include <fstream>
 #include "clsClient.h"
 using namespace std;
-enum _enMainChoice {
-	ShowClientLIst = 1,
-	adddNewClient = 2,
-	deleteClient = 3,
-	updateClient = 4,
-	findClient = 5,
-	resetClients = 6,
-	TransActions = 7,
-	MangeUsers = 8,
-	LogOut = 9,
-	Quit = 10
-};
- _enMainChoice _ReadMainChoiceFromUser() {
 
-	short choice;
-	cout << "\n\n\t\tWhich of these would you like to start with ? (1 : 10) : ";
-	cin >> choice;
 
-	while (cin.fail() || choice > 10 || choice < 1) {
-		cin.clear();
-		cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-		cout << "\n\n\t\tpls enter a valid choice (1 : 10) only \n";
-		cin >> choice;
-	}
-	return _enMainChoice(choice);
-}
-enum _enTrans { Deposit = 1, WithDrow = 2, ShowMoneyList = 3, MainMenu = 4 };
- _enTrans _ReadTransChoice() {
-	short choice;
-	cout << "\n\n\t\t\t\t\t(1 : 4) : ";
-	cin >> choice;
-	while (cin.fail() || choice > 4 || choice < 1) {
-		cin.clear();
-		cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-		cout << "\npls enter a valid choice (1 : 4) only \n";
-		cin >> choice;
-	}
-	return _enTrans(choice);
-}
-enum _enReadUserChoice {
-	UserList = 1,
-	Adduser = 2,
-	deleteuser = 3,
-	updateuser = 4,
-	finduser = 5,
-	MainMenue = 6
-};
-_enReadUserChoice ReadChoiceFromManageUserScreen() {
-	short choice;
-	cout << "\n\t\t\t\t\t(1 : 6) : ";
-	cin >> choice;
 
-	while (cin.fail() || choice > 6 || choice < 1) {
-		cin.clear();
-		cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
-		cout << "\npls enter a valid choice (1 : 6) only \n";
-		cin >> choice;
-	}
-	return _enReadUserChoice(choice);
-}
 string JoinString(vector<string> vString, string Delim)
 	{
 
@@ -158,4 +101,5 @@ enum enPermesion {
 	eresetClients = 32,
 	eTransActions = 64,
 	eManageUsers = 128,
+	eCurrency = 256,
 };

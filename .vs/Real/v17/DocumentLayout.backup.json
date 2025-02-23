@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\programming\\projects\\Bank_With_OOP\\Real\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsMainMenu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsCurrencyExchangeScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsCurrencyExchangeScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsFindCurrencyScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6245D29D-4071-4B24-8F45-D4816BD3037F}|Real\\Real.vcxproj|solutionrelative:Real\\clsFindCurrencyScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsMainMenu.h",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsMainMenu.h",
-              "RelativeDocumentMoniker": "Real\\clsMainMenu.h",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsMainMenu.h",
-              "RelativeToolTip": "Real\\clsMainMenu.h",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAWwIAAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "clsFindCurrencyScreen.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsFindCurrencyScreen.h",
+              "RelativeDocumentMoniker": "Real\\clsFindCurrencyScreen.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsFindCurrencyScreen.h",
+              "RelativeToolTip": "Real\\clsFindCurrencyScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-23T02:55:32.176Z",
+              "WhenOpened": "2025-02-23T21:09:05.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Source.cpp",
-              "RelativeDocumentMoniker": "Real\\Source.cpp",
-              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\Source.cpp",
-              "RelativeToolTip": "Real\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-23T02:55:30.994Z",
+              "DocumentIndex": 0,
+              "Title": "clsCurrencyExchangeScreen.h",
+              "DocumentMoniker": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsCurrencyExchangeScreen.h",
+              "RelativeDocumentMoniker": "Real\\clsCurrencyExchangeScreen.h",
+              "ToolTip": "E:\\programming\\projects\\Bank_With_OOP\\Real\\Real\\clsCurrencyExchangeScreen.h",
+              "RelativeToolTip": "Real\\clsCurrencyExchangeScreen.h",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD0AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-23T14:16:03.493Z",
               "EditorCaption": ""
             }
           ]

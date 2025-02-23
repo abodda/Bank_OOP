@@ -7,6 +7,19 @@
 #include "Misc.h"
 class clsTransScreen : protected clsScreen
 {
+	enum _enTrans { Deposit = 1, WithDrow = 2, ShowMoneyList = 3, MainMenu = 4 };
+	static _enTrans _ReadTransChoice() {
+		short choice;
+		cout << "\n\n\t\t\t\t\t(1 : 4) : ";
+		cin >> choice;
+		while (cin.fail() || choice > 4 || choice < 1) {
+			cin.clear();
+			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
+			cout << "\npls enter a valid choice (1 : 4) only \n";
+			cin >> choice;
+		}
+		return _enTrans(choice);
+	}
 	static void _DisplayTransMenue() {
 		system("cls");
 		Header("\t TransActions Screen");

@@ -24,11 +24,32 @@ class clsManageScreen : protected clsScreen
 		system("pause>0");
 		clsManageScreen::Print();
 	}
+	enum _enReadUserChoice {
+		UserList = 1,
+		Adduser = 2,
+		deleteuser = 3,
+		updateuser = 4,
+		finduser = 5,
+		MainMenue = 6
+	};
+	static _enReadUserChoice _ReadChoiceFromManageUserScreen() {
+		short choice;
+		cout << "\n\t\t\t\t\t(1 : 6) : ";
+		cin >> choice;
+
+		while (cin.fail() || choice > 6 || choice < 1) {
+			cin.clear();
+			cin.ignore(std::numeric_limits< std::streamsize> ::max(), '\n');
+			cout << "\npls enter a valid choice (1 : 6) only \n";
+			cin >> choice;
+		}
+		return _enReadUserChoice(choice);
+	}
 
 public:
 	static void Print() {
 		_DisplayManageUserScreen();
-		switch (ReadChoiceFromManageUserScreen()) {
+		switch (_ReadChoiceFromManageUserScreen()) {
 		case Adduser:
 			clsAddUserScreen::Print();
 			_BackToManageScreen();
