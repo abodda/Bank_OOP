@@ -2,5 +2,7 @@
 #include "clsMainMenu.h"
 using namespace std;
 int main() {
-	clsMainMenu::MainProgram();
+	while(true){
+		clsMainMenu::LogIN();
+	}
 }

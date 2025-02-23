@@ -149,4 +149,13 @@ vector <string> _SaveFileContentToVector(string FileName) {
 	}
 	return clients;
 }
-
+enum enPermesion {
+	eClientList = 1,
+	eAddClient = 2,
+	eDeleteClient = 4,
+	eUpdateClient = 8,
+	eFindClient = 16,
+	eresetClients = 32,
+	eTransActions = 64,
+	eManageUsers = 128,
+};

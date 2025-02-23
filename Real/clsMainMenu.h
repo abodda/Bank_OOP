@@ -17,6 +17,7 @@
 #include "clsTransScreen.h"
 #include "clsManageUserScreen.h"
 #include "Misc.h"
+clsUser CurrentUser = clsUser::_EmptyObject();
 class clsMainMenu : protected clsScreen
 {
 private:
@@ -39,60 +40,95 @@ private:
 	}
 	static void _NotAvailible() {
 		system("cls");
-		cout << "|  you can not access this :( |\n";
-		cout << "|   pls Contact your Admin    |\n";
+		cout << "\n\t\t\t\t\t   |  you can not access this :( |";
+		cout << "\n\t\t\t\t\t   |   pls Contact your Admin    |";
 	}
 	static void _GoBackToMainMenue() {
 		cout << "\n\n\t\t\t\t\t  press any key to go to main menu...";
 		system("pause>0");
-		MainProgram();
+		_MainProgram();
 	}
-
-public:
-	static void MainProgram() {
+	static void _MainProgram() {
 		_DisplayMainScreen();
 		switch (_ReadMainChoiceFromUser()) {
 			case ShowClientLIst:
-				clsClientListScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eClientList)) clsClientListScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 					break;
 			case adddNewClient:
-				clsAddClientScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eAddClient)) clsAddClientScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 				break;
 			case resetClients:
-				clsResetClientScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eresetClients)) clsResetClientScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 				break;
 			case deleteClient:
-				clsDeleteClientScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eDeleteClient)) clsDeleteClientScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 				break;
 			case updateClient:
-				clsUpdateClientScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eUpdateClient)) clsUpdateClientScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 				break;
 			case findClient:
-				clsFindClientScreen::Print();
+				if (CurrentUser.IsAllowed(enPermesion::eFindClient)) clsFindClientScreen::Print();
+				else _NotAvailible();
 				_GoBackToMainMenue();
 				break;
 			case LogOut:
 				break;
 			case TransActions:
-				clsTransScreen::Print();
-				MainProgram();
+				if (CurrentUser.IsAllowed(enPermesion::eTransActions)) 
+				{
+					clsTransScreen::Print();
+					_MainProgram();
+				}
+				else 
+				{
+					_NotAvailible();
+					_GoBackToMainMenue();
+				}
 				break;
 			case MangeUsers:
-				clsManageScreen::Print();
-				MainProgram();
+				if (CurrentUser.IsAllowed(enPermesion::eManageUsers))
+				{
+					clsManageScreen::Print();
+					_MainProgram();
+				}
+				else
+				{
+					_NotAvailible();
+					_GoBackToMainMenue();
+				}
 				break;
 			case Quit:
 				exit(0);
 			}
 
 	}
-	
-	
+public:
+	static void LogIN() {
+		system("cls");
+		Header("\t Log in screen");
+		string username;
+		string password;
+		while (1) {
+			cout << "\n\t\t\t enter username : ";
+			getline(cin >> ws, username);
+			cout << "\t\t\t enter Password : ";
+			cin >> password;
+			CurrentUser = clsUser::Find(username);
+			if (!CurrentUser.IsEmbty() && CurrentUser.password() == password) break;
+			cout << "\t\t\t Invalid User Name / Password\n";
+		}
+		_MainProgram();
+	}
 	
 
 

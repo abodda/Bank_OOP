@@ -11,13 +11,12 @@ class clsScreen
 		printf("%d/%d/%d", now->tm_mday, now->tm_mon + 1, now->tm_year + 1900);
 	}
 protected:
-	//\t\t\t\t\t\t      Aboda
 	static void Header(string title, string subtitle = "") {
 		cout << "\n\t\t\t\t\t---------------------------------------\n";
 		cout << "\t\t\t\t\t" << title << "\n";
 		cout << "\n\t\t\t\t\t";
 		cout << "Today Is "; DateTime();
-		cout << "\tUser : " /*<< NowUser.Name()*/;
+		//cout << "\tUser : " << CurrentUser.Name();
 		cout << "\n\t\t\t\t\t---------------------------------------\n";
 	}
 };

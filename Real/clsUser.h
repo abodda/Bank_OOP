@@ -11,16 +11,7 @@
 using namespace std;
 class clsUser : public clsPerson {
 private:
-	enum enPermesion {
-		ClientList = 1,
-		AddClient = 2,
-		DeleteClient = 4,
-		UpdateClient = 8,
-		FindClient = 16,
-		resetClients = 32,
-		TransActions = 64,
-		ManageUsers = 128,
-	};
+
 	int _Permesion;
 	string _Password;
 	int _pos = 0;
@@ -38,10 +29,10 @@ private:
 		user.push_back(to_string(User.permesion()));
 		return FromVector(user);
 	}
+public:
 	static clsUser _EmptyObject() {
 		return clsUser("", "", "", "", -2);
 	}
-public:
 	clsUser(string Name, string Phone, string Email, string password, int permesion) :
 		clsPerson(Name, Phone, Email) {
 		_Permesion = permesion;
@@ -139,28 +130,28 @@ public:
 		else {
 			cout << "\n\t\t\tAccess to Client List ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::ClientList;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eClientList;
 			cout << "\n\t\t\tAccess to Add New Client ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::AddClient;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eAddClient;
 			cout << "\n\t\t\tAccess to Delete Client ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::DeleteClient;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eDeleteClient;
 			cout << "\n\t\t\tAccess to Update Client ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::UpdateClient;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eUpdateClient;
 			cout << "\n\t\t\tAccess to Find Client ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::FindClient;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eFindClient;
 			cout << "\n\t\t\tAccess to Reset Clients ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::resetClients;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eresetClients;
 			cout << "\n\t\t\tAccess to TransActions Clients ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::TransActions;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eTransActions;
 			cout << "\n\t\t\tAccess to ManageUsers ? : ";
 			cin >> Ans;
-			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::ManageUsers;
+			if (Ans == 'y' || Ans == 'Y')  permesion += enPermesion::eManageUsers;
 		}
 		return clsUser(Name, Phone, Email, Password, permesion);
 	}
@@ -201,26 +192,7 @@ public:
 		*this = user;
 		clsClient::_SaveVecToFile(users, "users.txt");
 	}
-	//clsUser LogIN() {
-	//	system("cls");
-	//	string username;
-	//	string password;
-	//	cout << "------------------------------\n";
-	//	cout << "	Log in screen\n";
-	//	cout << "------------------------------\n";
-	//	
-	//	while(1){
-	//		cout << "\nenter username : ";
-	//		getline(cin >> ws, username);
-	//		SetName(username);
-	//		cout << "enter Password : ";
-	//		cin >> password;
-	//		*this = Find(Name());
-	//		if (!this->IsEmbty() && this->password() == password) break;
-	//		cout << "Invalid User Name / Password";
-	//	}
-	//	return *this;
-	//}
+
 	bool IsAllowed(int NumberOfWanted) {
 		if (_Permesion == -1) return 1;
 		return ((NumberOfWanted & _Permesion) == NumberOfWanted);
