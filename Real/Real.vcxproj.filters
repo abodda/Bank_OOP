@@ -104,5 +104,8 @@
     <ClInclude Include="clsUpdateRateScreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CurrentUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

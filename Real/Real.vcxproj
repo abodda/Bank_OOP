@@ -157,6 +157,7 @@
     <ClInclude Include="clsUser.h" />
     <ClInclude Include="clsUserListScreen.h" />
     <ClInclude Include="clsWithDrowScreen.h" />
+    <ClInclude Include="CurrentUser.h" />
     <ClInclude Include="Misc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

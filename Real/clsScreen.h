@@ -2,6 +2,7 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "CurrentUser.h"
 using namespace std;
 class clsScreen
 {
@@ -16,7 +17,7 @@ protected:
 		cout << "\t\t\t\t\t" << title << "\n";
 		cout << "\n\t\t\t\t\t";
 		cout << "Today Is "; DateTime();
-		//cout << "\tUser : " << CurrentUser.Name();
+		cout << "\tUser : " << CurrentUser.Name();
 		cout << "\n\t\t\t\t\t---------------------------------------\n";
 	}
 };

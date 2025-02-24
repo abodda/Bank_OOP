@@ -18,7 +18,6 @@
 #include "clsManageUserScreen.h"
 #include "clsCurrencyExchangeScreen.h"
 #include "Misc.h"
-clsUser CurrentUser = clsUser::_EmptyObject();
 class clsMainMenu : protected clsScreen
 {
 private:
@@ -111,6 +110,7 @@ private:
 				_GoBackToMainMenue();
 				break;
 			case LogOut:
+				CurrentUser = clsUser::_EmptyObject();
 				break;
 			case TransActions:
 				if (CurrentUser.IsAllowed(enPermesion::eTransActions)) 

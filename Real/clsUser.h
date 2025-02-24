@@ -7,6 +7,7 @@
 #include <iomanip>
 #include "clsPerson.h"
 #include "string.h"
+#include "clsClient.h"
 #include "Misc.h"
 using namespace std;
 class clsUser : public clsPerson {
