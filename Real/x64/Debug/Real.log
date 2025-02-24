@@ -1,8 +1,11 @@
 ﻿  Source.cpp
-E:\programming\projects\Bank_With_OOP\Real\Real\Misc.h(32,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\projects\Bank_With_OOP\Real\Real\clsClient.h(31,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank_With_OOP\Real\Real\clsClientListScreen.h(13,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\programming\projects\Bank_With_OOP\Real\Real\clsUser.h(49,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank_With_OOP\Real\Real\clsClientListScreen.h(14,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank_With_OOP\Real\Real\clsTrans.h(31,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
@@ -11,7 +14,7 @@ E:\programming\projects\Bank_With_OOP\Real\Real\clsTrans.h(31,10): warning C4244
 E:\programming\projects\Bank_With_OOP\Real\Real\clsTrans.h(34,10): warning C4244: 'return': conversion from '__int64' to 'int', possible loss of data
   (compiling source file 'Source.cpp')
   
-E:\programming\projects\Bank_With_OOP\Real\Real\clsMoneyListScreen.h(11,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+E:\programming\projects\Bank_With_OOP\Real\Real\clsMoneyListScreen.h(12,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank_With_OOP\Real\Real\clsUserListScreen.h(12,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data

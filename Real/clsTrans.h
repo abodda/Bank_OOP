@@ -6,8 +6,8 @@
 #include <iomanip>
 #include "clsPerson.h"
 #include "string.h"
-#include "Misc.h"
 #include "clsClient.h"
+#include "File.h"
 class clsTrans {
 private:
 	long long _Added = 0;

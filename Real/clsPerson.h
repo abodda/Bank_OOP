@@ -4,9 +4,11 @@
 using namespace std;
 class clsPerson {
 private:
+
 	string _Name;
 	string _Phone;
 	string _Email;
+protected:
 public:
 	clsPerson(string Name, string Phone, string Email) {
 		_Name = Name;

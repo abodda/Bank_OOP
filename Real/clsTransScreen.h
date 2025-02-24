@@ -4,7 +4,6 @@
 #include "clsMoneyListScreen.h"
 #include "clsScreen.h"
 #include <iostream>
-#include "Misc.h"
 class clsTransScreen : protected clsScreen
 {
 	enum _enTrans { Deposit = 1, WithDrow = 2, ShowMoneyList = 3, MainMenu = 4 };

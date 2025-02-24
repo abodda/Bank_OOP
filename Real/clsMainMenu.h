@@ -17,10 +17,20 @@
 #include "clsTransScreen.h"
 #include "clsManageUserScreen.h"
 #include "clsCurrencyExchangeScreen.h"
-#include "Misc.h"
 class clsMainMenu : protected clsScreen
 {
 private:
+	enum enPermesion {
+		eClientList = 1,
+		eAddClient = 2,
+		eDeleteClient = 4,
+		eUpdateClient = 8,
+		eFindClient = 16,
+		eresetClients = 32,
+		eTransActions = 64,
+		eManageUsers = 128,
+		eCurrency = 256,
+	};
 	enum _enMainChoice {
 		ShowClientLIst = 1,
 		adddNewClient = 2,

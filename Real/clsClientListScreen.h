@@ -1,8 +1,9 @@
 #pragma once
 #include "clsScreen.h"
 #include "clsClient.h"
-#include "Misc.h"
+#include "File.h"
 #include <iomanip>
+#include <vector>
 class clsClientListScreen : protected clsScreen
 {
 public:

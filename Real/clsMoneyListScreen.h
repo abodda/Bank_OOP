@@ -1,6 +1,7 @@
 #pragma once
 #include "clsScreen.h"
 #include "clsClient.h"
+#include "File.h"
 class clsMoneyListScreen : protected clsScreen
 {
 public:
