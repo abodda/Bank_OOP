@@ -134,6 +134,7 @@
     <ClInclude Include="clsAddUserScreen.h" />
     <ClInclude Include="clsClient.h" />
     <ClInclude Include="clsClientListScreen.h" />
+    <ClInclude Include="clsCurrency.h" />
     <ClInclude Include="clsCurrencyCalcScreen.h" />
     <ClInclude Include="clsCurrencyExchangeScreen.h" />
     <ClInclude Include="clsCurrencyList.h" />
@@ -159,6 +160,10 @@
     <ClInclude Include="clsWithDrowScreen.h" />
     <ClInclude Include="CurrentUser.h" />
     <ClInclude Include="File.h" />
+    <ClInclude Include="String.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Currencies.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

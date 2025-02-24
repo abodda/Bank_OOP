@@ -9,7 +9,7 @@ class clsCurrencyExchangeScreen : protected clsScreen
 	static void _Display() {
 		system("cls");
 		Header("    Currency Exchange Menue Screen");
-		cout << "\t     			        (1)  ==> List Currencies.\n";
+		cout << "\n\t     			        (1)  ==> List Currencies.\n";
 		cout << "\t     			        (2)  ==> Find Currency.\n";
 		cout << "\t     			        (3)  ==> Update Currency.\n";
 		cout << "\t     			        (4)  ==> Currency Calculator.\n";

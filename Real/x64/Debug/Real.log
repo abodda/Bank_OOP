@@ -1,8 +1,5 @@
 ﻿  Source.cpp
-E:\programming\projects\Bank_With_OOP\Real\Real\clsClient.h(31,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
-  (compiling source file 'Source.cpp')
-  
-E:\programming\projects\Bank_With_OOP\Real\Real\clsUser.h(49,24): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+E:\programming\projects\Bank_With_OOP\Real\Real\string.h(11,23): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank_With_OOP\Real\Real\clsClientListScreen.h(14,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
@@ -18,6 +15,9 @@ E:\programming\projects\Bank_With_OOP\Real\Real\clsMoneyListScreen.h(12,18): war
   (compiling source file 'Source.cpp')
   
 E:\programming\projects\Bank_With_OOP\Real\Real\clsUserListScreen.h(12,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Source.cpp')
+  
+E:\programming\projects\Bank_With_OOP\Real\Real\clsCurrencyList.h(15,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   (compiling source file 'Source.cpp')
   
   Real.vcxproj -> E:\programming\projects\Bank_With_OOP\Real\x64\Debug\Real.exe
