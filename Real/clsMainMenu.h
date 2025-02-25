@@ -121,6 +121,7 @@ private:
 				break;
 			case LogOut:
 				CurrentUser = clsUser::_EmptyObject();
+				LogIN();
 				break;
 			case TransActions:
 				if (CurrentUser.IsAllowed(enPermesion::eTransActions)) 
